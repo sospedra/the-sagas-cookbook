@@ -1,0 +1,43 @@
+{
+  "name": "the-sagas-cookbook",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:1337",
+  "dependencies": {
+    "@sospedra/len": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "ms": "^2.1.1",
+    "node-fetch": "^2.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "redux-starter-kit": "^0.4.3",
+    "styled-components": "^4.2.0",
+    "styled-normalize": "^8.0.6",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start:client": "react-scripts start",
+    "start:server": "nodemon server",
+    "start": "yarn start:client & yarn start:server",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
